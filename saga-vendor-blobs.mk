@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/saga/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/saga/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/saga/proprietary/rmt_storage:/system/bin/rmt_storage \
-    vendor/htc/saga/proprietary/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
+    vendor/htc/saga/proprietary/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
     vendor/htc/saga/proprietary/default.acdb:system/etc/firmware/default.acdb \
     vendor/htc/saga/proprietary/default_org.acdb:system/etc/firmware/default_org.acdb \
     vendor/htc/saga/proprietary/default_org_wb.acdb:system/etc/firmware/default_org_wb.acdb \
