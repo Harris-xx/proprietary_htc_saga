@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for saga
 PRODUCT_COPY_FILES += \
-    vendor/htc/vivo/proprietary/bin/akmd:/system/bin/akmd \
+    vendor/htc/saga/proprietary/bin/akmd:/system/bin/akmd \
     vendor/htc/saga/proprietary/bin/awb_camera:/system/bin/awb_camera \
     vendor/htc/saga/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/saga/proprietary/bin/logcat2:/system/bin/logcat2 \
