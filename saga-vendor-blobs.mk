@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/saga/proprietary/bin/akmd:/system/bin/akmd \
     vendor/htc/saga/proprietary/bin/awb_camera:/system/bin/awb_camera \
     vendor/htc/saga/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
-    vendor/htc/saga/proprietary/bin/logcat2:/system/bin/logcat2 \
     vendor/htc/saga/proprietary/bin/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/saga/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/saga/proprietary/vendor/firmware/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
