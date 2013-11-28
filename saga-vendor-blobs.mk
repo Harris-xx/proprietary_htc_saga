@@ -18,7 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/saga/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/saga/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/saga/proprietary/lib/libv8.so:obj/lib/libv8.so \
     vendor/htc/saga/proprietary/lib/libjni_latinime.so:obj/lib/libjni_latinime.so
 
 # All the blobs necessary for saga
@@ -71,5 +70,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/saga/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/saga/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/saga/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
-    vendor/htc/saga/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/htc/saga/proprietary/lib/libjni_latinime.so:system/lib/libjni_latinime.so
