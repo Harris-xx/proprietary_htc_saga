@@ -18,6 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/saga/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/saga/proprietary/lib/libcamera.so:obj/lib/libcamera.so
+    vendor/htc/saga/proprietary/lib/libjni_latinime.so:obj/lib/libjni_latinime.so
 
 # All the blobs necessary for saga
 PRODUCT_COPY_FILES += \
@@ -47,7 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/saga/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/saga/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/saga/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/saga/proprietary/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
+    vendor/htc/saga/proprietary/lib/egl/libplayback_adreno200.so:/system/lib/egl/libplayback_adreno200.so \
     vendor/htc/saga/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/saga/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
     vendor/htc/saga/proprietary/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
@@ -63,9 +64,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/saga/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/saga/proprietary/lib/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/saga/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
+    vendor/htc/saga/proprietary/lib/libllvm-arm.so:/system/lib/libllvm-arm.so \
     vendor/htc/saga/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/saga/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/saga/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/htc/saga/proprietary/lib/libOpenCL.so:/system/lib/libOpenCL.so \
     vendor/htc/saga/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/saga/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/saga/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so
+    vendor/htc/saga/proprietary/lib/libjni_latinime.so:system/lib/libjni_latinime.so
